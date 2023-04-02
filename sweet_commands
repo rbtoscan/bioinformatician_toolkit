@@ -1,0 +1,9 @@
+
+
+############################## parallelization using xargs on bash ##############################
+arguments_file="" # space-separated file containing the arguments
+parallel_processes=10
+num_arg="2"
+script="" # script that runs the task. arguments are represented by '$1', '$2' ...
+cat "$arguments_file"  | xargs -P "$parallel_processes" -n "$num_arg" "$script"
+##################################################################################################
