@@ -1,0 +1,2 @@
+# cleaning out undesired .nfs files
+ ls -lha | grep nfs | rev | cut -f1 -d' ' | rev | xargs lsof | awk '{print $2}' | grep -v PID > pids; while read l; do echo $l; kill -9 $l;  done < pids
