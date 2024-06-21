@@ -1,0 +1,12 @@
+Salmonella enterica
+Escherichia coli
+Shigella
+Campylobacter jejuni
+Staphylococcus aureus
+Klebsiella pneumoniae
+Streptococcus pneumoniae
+Listeria monocytogenes
+Streptococcus pyogenes
+Neisseria gonorrhoeae
+Pseudomonas aeruginosa
+Enterococcus faecium
